@@ -8,7 +8,7 @@
 # conda activate "name"
 # or use the python interpreter selection menu in VS Code
 
-name: Repo_env_name
+name: 46750_exercises
 channels:
   - conda-forge
   - defaults
@@ -18,5 +18,6 @@ dependencies:
   - pandas>=2.1
   - matplotlib>=3.8
   - ipykernel>=6.29
+  - gurobi>=12.0
   - pip
   - pip:
